@@ -9,6 +9,8 @@ public class Driver {
         System.out.println("Enter an integer n");
         int temp = keyboard.nextInt();
         Matrix test = new Matrix(temp);
+        test.calculation();
+        System.out.println();
         test.printMatrix();
     }
 }
